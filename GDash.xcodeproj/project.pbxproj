@@ -181,6 +181,12 @@
 		9F9E3508271B317A00C6257C /* ckdelay.xls in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E34F9271B317A00C6257C /* ckdelay.xls */; };
 		9F9E350A271B329400C6257C /* libSDL_image-1.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9E3509271B329400C6257C /* libSDL_image-1.2.0.dylib */; };
 		9F9E350B271B329400C6257C /* libSDL_image-1.2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E3509271B329400C6257C /* libSDL_image-1.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9F9E437C271B6B8000C6257C /* libSDL_mixer-1.2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E2970271AEECA00C6257C /* libSDL_mixer-1.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9F9E437D271B6B8200C6257C /* libSDL-1.2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E296F271AEECA00C6257C /* libSDL-1.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9F9E437E271B6B8500C6257C /* libz.1.2.11.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E34E0271B2E1B00C6257C /* libz.1.2.11.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9F9E437F271B6B8800C6257C /* libpng16.16.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E34D9271B287700C6257C /* libpng16.16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9F9E4380271B6B8900C6257C /* libintl.8.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E296D271AEB9D00C6257C /* libintl.8.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9F9E4381271B6B8B00C6257C /* libglib-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9F9E296B271AEB4400C6257C /* libglib-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,7 +196,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9F9E437F271B6B8800C6257C /* libpng16.16.dylib in Embed Libraries */,
+				9F9E437C271B6B8000C6257C /* libSDL_mixer-1.2.0.dylib in Embed Libraries */,
+				9F9E437D271B6B8200C6257C /* libSDL-1.2.0.dylib in Embed Libraries */,
+				9F9E4381271B6B8B00C6257C /* libglib-2.0.0.dylib in Embed Libraries */,
+				9F9E4380271B6B8900C6257C /* libintl.8.dylib in Embed Libraries */,
 				9F9E350B271B329400C6257C /* libSDL_image-1.2.0.dylib in Embed Libraries */,
+				9F9E437E271B6B8500C6257C /* libz.1.2.11.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
