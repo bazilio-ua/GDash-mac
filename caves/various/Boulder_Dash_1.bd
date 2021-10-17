@@ -2,12 +2,14 @@
 Version=0.5
 [game]
 Name=Boulder Dash 1
+Author=Peter Liepa with Chris Gray
 TitleScreen=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
 TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAAFlJREFUGNNjTInc+Z8BCRw6eJSBgYGB4ebTRgYGBgYGFgYcIDVqF3YFt541QRgH67ArSIncicJnQbcTZjRcAbqd6ICRgYHhPwMDA4OaFMROO3trVBPQ7UQHAGZWGOt2UtKnAAAAAElFTkSuQmCC
 Levels=5
 
 [cave]
-Name=Cave A
+Name=Cave A: Intro
+Description=Pick up jewels and exit before time is up.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -40,7 +42,8 @@ Point=38 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B
+Name=Cave B: Rooms
+Description=Pick up jewels, but you must move boulders to get all jewels.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -81,7 +84,8 @@ Point=18 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C
+Name=Cave C: Maze
+Description= Pick up jewels. You must get every jewel to exit.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -111,7 +115,8 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave D
+Name=Cave D: Butterflies
+Description=Drop boulders on butterflies to create jewels.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -187,7 +192,8 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E
+Name=Cave E: Guards
+Description=The jewels are there for grapping, but they are guarded by the deadly fireflies.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -242,7 +248,8 @@ Point=34 14 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave F
+Name=Cave F: Firefly dens
+Description=Each firefly is guarding a jewel.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -299,7 +306,8 @@ Point=38 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave G
+Name=Cave G: Amoeba
+Description=Surround the amoeba with boulders, so it can't grow anymore. Pick up jewels that are created when it suffocates.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -339,7 +347,8 @@ Point=39 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H
+Name=Cave H: Enchanted Wall
+Description=Activate the enchanted wall and create as many jewels as you can.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -423,7 +432,8 @@ Point=18 2 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave I
+Name=Cave I: Greed
+Description=You have to get a lot of jewels here, lucky there are so many.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -460,7 +470,8 @@ Point=8 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J
+Name=Cave J: Tracks
+Description=Get the jewels, avoid the fireflies.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -505,7 +516,8 @@ Line=4 14 4 17 DIAMOND
 [/cave]
 
 [cave]
-Name=Cave K
+Name=Cave K: Crowd
+Description=You must move a lot of boulders around in some tight spaces.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -551,7 +563,8 @@ Point=38 15 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L
+Name=Cave L: Walls
+Description=You must blast hrough walls to get at some of the jewels. Drop a boulder on a firefly at the right time and place to do this.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -632,7 +645,8 @@ Point=18 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M
+Name=Cave M: Apocalypse
+Description=Bring the butterflies and amoeba together and watch the jewels fly.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -667,7 +681,8 @@ Rectangle=5 19 34 20 DIRT
 [/cave]
 
 [cave]
-Name=Cave N
+Name=Cave N: Zigzag
+Description=Magically transform the butterflies into jewels, but don't waste any boulders and watch out the fireflies.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -708,7 +723,8 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O
+Name=Cave O: Funnel
+Description=There is an enchanted wall at the bottom of the rock tunnel.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -743,7 +759,8 @@ Point=20 1 INBOX
 [/cave]
 
 [cave]
-Name=Cave P
+Name=Cave P: Enchanted boxes
+Description=The top of each square room is an enchanted wall, but you'll have to blast your way inside.
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
